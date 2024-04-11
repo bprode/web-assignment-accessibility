@@ -2,6 +2,33 @@ body {
     font-family: "Urbanist", sans-serif;
 }
 
+.head-container{ 
+    padding: 1.2rem .5rem;
+    position: fixed;
+    width: -webkit-fill-available;
+    background:rgba(0,0,0,0.2);
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    z-index: 99;
+}
+
+.head-list ul, .head-list li{
+    display: inline;
+    
+}
+
+.head-list li{
+   margin: 0rem .5rem;
+    
+}
+
+.head-list a {
+    color: white;
+    text-decoration: none;
+}
+
 .hero-img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/pexels-emre-can-acer-2079438.jpg");
     height: 100%;
